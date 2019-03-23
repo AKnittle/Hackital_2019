@@ -2,7 +2,7 @@
 Team Members:
 1. Andrew Knittle
 2. 
-3. 
+3.Gianna Williams 
 4. 
 5. 
 
