@@ -1,6 +1,7 @@
 """Python Module used for """
 
 def poll_data():
+    data_list = []
     return
 
 def main():
