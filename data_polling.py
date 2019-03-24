@@ -10,14 +10,14 @@ api_key = api_file.read()
 
 def poll_data():
     gmap = googlemaps.Client(key=api_key)
-    geocode_result = gmap.geocode("First St SE, Washington, DC 20004")
-    print(geocode_result)
+    # geocode_result = gmap.geocode("First St SE, Washington, DC 20004")
+    # print(geocode_result)
     now = datetime.now()
-    directions_result = gmap.directions("Washington Monument",
-                                        "United States Capitol",
+    directions_result_raw = gmap.directions("Washington Monument",
+                                        "Lincoln Memorial",
                                         mode="transit",
                                         departure_time=now)
-    print(directions_result)
+    print(directions_result_raw)
     return
 
 
